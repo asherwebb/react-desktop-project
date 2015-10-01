@@ -21,5 +21,17 @@ npm run gulp-reload
 ```
 To get up and running clone the starter from this repo. You will need to then run
 ```
+git clone <this-repo>
 npm install
+```
+Then to unlink from the starter and add your project as the remote origin
+```
+git remote rm origin
+
+git remote add origin https://github.com/user/repo.git
+
+```
+make sure your remote origin is correct
+```
+git remote -v
 ```
