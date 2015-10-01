@@ -7,9 +7,19 @@ This is the main react file for rendering the ui and state
 This file contains the dom element targeted by the react render. It also contains links to the 3rd party libraries jquery, jquery-ui and bootstrap
 
 <h1>System Notes</h1>
-This was developed on a mac using npm installed by homebrew. It uses node.js v10.33. The package.json file gives an overview of the starter and a couple of commands:
+This was developed on a mac using npm installed by homebrew. It uses node.js v10.33. 
+Babel is used for compiling according to FB React recommendation.
+https://facebook.github.io/react/docs/getting-started.html
+
+The entire starter kit should run offline.
+All you need is a local server. MAMP has been tested.
+
+The package.json file gives an overview of the starter and a couple of commands:
 ```
 npm run babel-jsx-watch
 npm run gulp-reload
 ```
-
+To get up and running clone the starter from this repo. You will need to then run
+```
+npm install
+```
