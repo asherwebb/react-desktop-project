@@ -1,0 +1,24 @@
+{
+  "name": "react-desktop-project",
+  "version": "1.0.0",
+  "description": "react boilerplate for browser",
+  "main": "src/app.js",
+  "scripts": {
+    "babel-jsx-watch": "babel src --watch --out-dir build",
+    "gulp-reload": "gulp browser-sync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asherwebb/react-desktop-project.git"
+  },
+  "author": "Asher Webb",
+  "license": "Private",
+  "bugs": {
+    "url": "https://github.com/asherwebb/react-desktop-project/issues"
+  },
+  "homepage": "https://github.com/asherwebb/react-desktop-project",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "browser-sync": "^2.8.2"
+  }
+}
